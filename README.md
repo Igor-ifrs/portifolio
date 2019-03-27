@@ -1,2 +1,2 @@
 # portifolio
-Estudando React.js e montando um currículo online
+Estudando Javascript e montando um currículo online

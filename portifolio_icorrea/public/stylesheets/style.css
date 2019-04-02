@@ -1,8 +1,45 @@
-body {
-  padding: 50px;
-  font: 14px "Lucida Grande", Helvetica, Arial, sans-serif;
+@font-face {
+  font-family: '8bits';
+  src: url('font_pixel_operator/PixelOperator.ttf');
 }
 
-a {
-  color: #00B7FF;
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: '8bits';
+  color: yellow;
+}
+
+html {
+  font-size: 100%;
+}
+
+.main {
+  background: black;
+  height: 100vh;
+  width: 100vw;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.app p {
+  text-align: center;
+  padding: 5px;
+  transition: 1s ease-in; 
+}
+
+.app p:first-of-type {
+  font-size: 300%;
+  text-transform: uppercase;
+  cursor: pointer;
+}
+
+.app p:hover {
+  -moz-transform: translate(0px, -19px);
+  -webkit-transform: translate(0px, -19px);
+  -o-transform: translate(0px, -19px);
+  -ms-transform: translate(0px, -19px);
+  transform: translate(0px, -19px);
 }
